@@ -3,7 +3,6 @@
   // Include database connection file
 
   include_once('config.php');
-
   if (isset($_POST['submit'])) {
     
     $username = $con->real_escape_string($_POST['username']);
